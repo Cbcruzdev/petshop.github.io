@@ -1,76 +1,290 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Produtos - Amigo Pet</title>
+
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- CSS do projeto -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
     <header>
-        <h1>Amigo Pet</h1>
-        <nav>
-            <a href="index.html">Início</a> |
-            <a href="produtos.html">Produtos</a> |
-            <a href="servicos.html">Serviços</a>
-        </nav>
+        <div class="container">
+
+            <h1>Amigo Pet</h1>
+
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="servicos.html">Serviços</a>
+                <a href="cadastro.html">Cadastro</a>
+                <a href="agendamento.html">Agendamento</a>
+            </nav>
+
+        </div>
     </header>
 
     <main>
-        <h2>Produtos</h2>
 
-        <section>
-            <h3>Acessórios</h3>
-            <article>
-                <h4>Cama para cães</h4>
-                <img src="imagens/cama-caes.jpg" alt="Cama para cães">
-                <p>Cama confortável para cães de pequeno e médio porte.</p>
-                <p>Valor: R$ 89,90</p>
-            </article>
-            <article>
-                <h4>Brinquedo de borracha</h4>
-                <img src="imagens/brinquedo-borracha.jpg" alt="Brinquedo de borracha">
-                <p>Brinquedo resistente para entretenimento e diversão do pet.</p>
-                <p>Valor: R$ 29,90</p>
-            </article>
-        </section>
+        <div class="container">
 
-        <section>
-            <h3>Rações não perecíveis</h3>
-            <article>
-                <h4>Ração para cães adultos</h4>
-                <img src="imagens/racao-caes.jpg" alt="Ração para cães adultos">
-                <p>Ração seca completa para cães adultos.</p>
-                <p>Valor: R$ 119,90</p>
-            </article>
-            <article>
-                <h4>Ração para gatos adultos</h4>
-                <img src="imagens/racao-gatos.jpg" alt="Ração para gatos adultos">
-                <p>Ração seca completa para gatos adultos.</p>
-                <p>Valor: R$ 79,90</p>
-            </article>
-        </section>
+            <h2 class="mt-4 mb-4">Nossos Produtos</h2>
 
-        <section>
-            <h3>Higiene e limpeza</h3>
-            <article>
-                <h4>Tapete higiênico</h4>
-                <img src="imagens/tapete-higienico.jpg" alt="Tapete higiênico">
-                <p>Tapete higiênico descartável para cães.</p>
-                <p>Valor: R$ 39,90</p>
-            </article>
-            <article>
-                <h4>Fraldas para pets</h4>
-                <img src="imagens/fraldas-pets.jpg" alt="Fraldas para pets">
-                <p>Fraldas descartáveis para cães e gatos.</p>
-                <p>Valor: R$ 34,90</p>
-            </article>
-        </section>
+            <!-- Acessórios -->
+            <section>
+
+                <h3 class="mb-3">Acessórios</h3>
+
+                <div class="row">
+
+                    <div class="col-md-6">
+
+                        <div class="card">
+
+                            <img
+                                src="imagens/cama-caes.jpg"
+                                class="card-img-top"
+                                alt="Cama confortável para cães">
+
+                            <div class="card-body">
+
+                                <h4 class="card-title">
+                                    Cama para cães
+                                </h4>
+
+                                <p class="card-text">
+                                    Cama confortável para cães de pequeno
+                                    e médio porte.
+                                </p>
+
+                                <p>
+                                    <strong>Valor: R$ 89,90</strong>
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-6">
+
+                        <div class="card">
+
+                            <img
+                                src="imagens/brinquedo-borracha.jpg"
+                                class="card-img-top"
+                                alt="Brinquedo de borracha para pets">
+
+                            <div class="card-body">
+
+                                <h4 class="card-title">
+                                    Brinquedo de borracha
+                                </h4>
+
+                                <p class="card-text">
+                                    Brinquedo resistente para entretenimento
+                                    e diversão do pet.
+                                </p>
+
+                                <p>
+                                    <strong>Valor: R$ 29,90</strong>
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Rações -->
+            <section class="mt-4">
+
+                <h3 class="mb-3">Rações não perecíveis</h3>
+
+                <div class="row">
+
+                    <div class="col-md-6">
+
+                        <div class="card">
+
+                            <img
+                                src="imagens/racao-caes.jpg"
+                                class="card-img-top"
+                                alt="Ração para cães adultos">
+
+                            <div class="card-body">
+
+                                <h4 class="card-title">
+                                    Ração para cães adultos
+                                </h4>
+
+                                <p class="card-text">
+                                    Ração seca completa para cães adultos.
+                                </p>
+
+                                <p>
+                                    <strong>Valor: R$ 119,90</strong>
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-6">
+
+                        <div class="card">
+
+                            <img
+                                src="imagens/racao-gatos.jpg"
+                                class="card-img-top"
+                                alt="Ração para gatos adultos">
+
+                            <div class="card-body">
+
+                                <h4 class="card-title">
+                                    Ração para gatos adultos
+                                </h4>
+
+                                <p class="card-text">
+                                    Ração seca completa para gatos adultos.
+                                </p>
+
+                                <p>
+                                    <strong>Valor: R$ 79,90</strong>
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Higiene -->
+            <section class="mt-4">
+
+                <h3 class="mb-3">Higiene e limpeza</h3>
+
+                <div class="row">
+
+                    <div class="col-md-6">
+
+                        <div class="card">
+
+                            <img
+                                src="imagens/tapete-higienico.jpg"
+                                class="card-img-top"
+                                alt="Tapete higiênico para cães">
+
+                            <div class="card-body">
+
+                                <h4 class="card-title">
+                                    Tapete higiênico
+                                </h4>
+
+                                <p class="card-text">
+                                    Tapete higiênico descartável para cães.
+                                </p>
+
+                                <p>
+                                    <strong>Valor: R$ 39,90</strong>
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-6">
+
+                        <div class="card">
+
+                            <img
+                                src="imagens/fraldas-pets.jpg"
+                                class="card-img-top"
+                                alt="Fraldas descartáveis para pets">
+
+                            <div class="card-body">
+
+                                <h4 class="card-title">
+                                    Fraldas para pets
+                                </h4>
+
+                                <p class="card-text">
+                                    Fraldas descartáveis para cães e gatos.
+                                </p>
+
+                                <p>
+                                    <strong>Valor: R$ 34,90</strong>
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
     </main>
 
+
     <footer>
-        <p>Amigo Pet - Projeto acadêmico da disciplina Fundamentos de Sistemas Web.</p>
-        <p>Contato: contato@amigopet.com</p>
-        <p><a href="index.html">Início</a> | <a href="produtos.html">Produtos</a> | <a href="servicos.html">Serviços</a></p>
+
+        <div class="container">
+
+            <p>
+                Amigo Pet - Projeto acadêmico da disciplina
+                Fundamentos de Sistemas Web.
+            </p>
+
+            <p>
+                Contato: contato@amigopet.com
+            </p>
+
+        </div>
+
     </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <!-- JavaScript do projeto -->
+    <script src="js/script.js"></script>
+
 </body>
+
 </html>
