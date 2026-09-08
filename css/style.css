@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #198754;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 30px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.formulario {
+    max-width: 800px;
+    margin: auto;
+}
+
+.carousel-item img {
+    height: 350px;
+    object-fit: cover;
+}
+
+.botao-principal {
+    margin-top: 15px;
+}
